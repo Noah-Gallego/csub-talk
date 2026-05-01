@@ -1,0 +1,90 @@
+:root {
+  --slidev-theme-primary: #D97757;
+  color-scheme: light !important;
+}
+
+html, body, #app {
+  background: #fdfdfd !important;
+  color: #1a1a1a !important;
+}
+
+.slidev-layout {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Display', system-ui, sans-serif;
+  font-feature-settings: 'cv11', 'ss01', 'ss03';
+  letter-spacing: -0.011em;
+  color: #1a1a1a !important;
+  background: #fdfdfd !important;
+}
+
+#slidev-goto-dialog {
+  display: none !important;
+}
+
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3 {
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  line-height: 1.05;
+}
+
+.slidev-layout h1 {
+  font-size: 4.5rem;
+}
+
+.slidev-layout h2 {
+  font-size: 3rem;
+}
+
+.slidev-layout p {
+  line-height: 1.5;
+}
+
+.slidev-layout code {
+  font-family: 'JetBrains Mono', 'SF Mono', ui-monospace, monospace;
+  font-feature-settings: 'liga' 0;
+}
+
+.eyebrow {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.rung-num {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1;
+  color: #D97757;
+  letter-spacing: -0.05em;
+}
+
+.kicker {
+  color: #D97757;
+}
+
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(8px);
+  padding: 1.25rem 1.5rem;
+}
+
+.divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(0,0,0,0.12), transparent);
+}
+
+.invert-logo {
+  filter: invert(1);
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+}
