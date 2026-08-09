@@ -2,6 +2,10 @@
 
 Slidev presentation for the CSU Bakersfield Software Engineering Club about agentic AI coding at hackathons.
 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=vue,javascript,css&theme=light" alt="Vue, JavaScript, and CSS" />
+</p>
+
 ## Overview
 
 The deck introduces a progression from smarter prompts to editor tab completion and agentic coding. It includes examples of ideation, debugging, code understanding, Cursor, and agent-based development.
