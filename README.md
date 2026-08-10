@@ -34,6 +34,10 @@ npm run dev
 
 Build the deck with `npm run build` or export it with `npm run export`. The source presentation is `slides.md`; custom styling is in `style.css`.
 
+## Preview / Media
+
+No exported deck, slide image, or other verified visual preview is present in the tracked files; the repository contains the Slidev source and logo assets.
+
 ## Status and attribution
 
 This is a presentation source repository. Logos in `public/logos/` are third-party marks and retain their respective rights. No license is declared.
