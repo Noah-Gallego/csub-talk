@@ -18,13 +18,6 @@ The deck introduces a progression from smarter prompts to editor tab completion 
 - Tab completion and Cursor examples
 - Agentic coding tools and workflow guidance
 
-## Tech stack
-
-- Slidev 0.50
-- Vue 3
-- Markdown, CSS, and local logo assets
-- Playwright Chromium for export-related tooling
-
 ## Getting started
 
 ```bash
