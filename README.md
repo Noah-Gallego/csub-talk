@@ -2,6 +2,10 @@
 
 Slidev presentation for the CSU Bakersfield Software Engineering Club about agentic AI coding at hackathons.
 
+> [!TIP]
+> Edit `slides.md` for presentation content and `style.css` for deck styling; use the Slidev commands in this README to build or export the result.
+
+
 <p align="center">
   <img src="https://skillicons.dev/icons?i=vue,javascript,css&theme=light" alt="Vue, JavaScript, and CSS" />
 </p>
@@ -34,3 +38,13 @@ No exported deck, slide image, or other verified visual preview is present in th
 ## Status and attribution
 
 This is a presentation source repository. Logos in `public/logos/` are third-party marks and retain their respective rights. No license is declared.
+
+## Presentation flow
+
+```mermaid
+flowchart LR
+    A[slides.md] --> B[Slidev]
+    C[style.css] --> B
+    D[public logos] --> B
+    B --> E[Development deck or exported presentation]
+```
